@@ -20,3 +20,11 @@ hourly_rate = (int ("25"))
 hours_worked =(int ("40"))
 
 print(float((hourly_rate) * (hours_worked)))
+
+
+
+name = input("What is your name? ")
+age = input("What is your age? ")
+
+question-one = what is competitive programming?
+
