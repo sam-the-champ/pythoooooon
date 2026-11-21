@@ -47,7 +47,7 @@ print(f"Tasks left over: {left_over}")
 print(f"Total tasks remaining: {total_tasks_remaining}")
 
 
-print("Thank you for providing the information. Have a great day!")
+print("Thank you for providing the information. Have a great day!")                    
 
 name = input("Hi! What is your name? ")
 event = input("What was the event or occasion? ")
@@ -66,9 +66,21 @@ print(f"Welcome to PayUp ! {name}")
 print() 
 print(f"Here's the breakdown for {event}:")
 print()
-print(f"Cost: ${cost}")
-print(f"Service charges: ${service_charge}")
+print(f"Cost: ${cost:.2f}")
+print(f"Service charges: ${service_charge:.2f}")
 print(f"Group size: {group_size}")
-print(f"Grand total: ${total_cost}")
+print(f"Grand total: ${total_cost:.2f}")
 print()
-print(f"Each person must PayUp: ${total_cost_per_person}")
+print(f"Each person must PayUp: ${total_cost_per_person:.2f}")
+
+
+
+key concepts 
+
+variables, 
+data types, 
+arithmetic operations, 
+user input, 
+string formatting(f-strings), 
+and 
+basic control flow.
